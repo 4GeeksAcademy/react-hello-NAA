@@ -61,7 +61,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <div className="row justify-content-center">
           {cards.map((item, index) => (
             <div
-              className="d-flex justify-content-center col-12 col-sm-6 col-md-4 col-lg-3 mb-4" 
+              className="d-flex justify-content-center col-12 col-md-6 col-lg-3 mt-4" 
               key={index}
             >
               <Cards
